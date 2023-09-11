@@ -126,8 +126,6 @@ public class TestNGClass
         //Math.log10(56)/Math.log(56)*(5*Math.sqrt(4)*10)
 
         assertThat(driver.findElement(By.id("sciOutPut")).getText(), is(" " + outpoutString));
-        // 31 | close |  |
-        driver.close();
     }
 
     @AfterTest
